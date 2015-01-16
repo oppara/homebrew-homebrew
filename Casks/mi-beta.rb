@@ -1,4 +1,4 @@
-class MiBeta < Cask
+cask :v1 => 'mi-beta' do
   url 'http://www.mimikaki.net/download/mi3.0.0b5.dmg'
   homepage 'http://www.mimikaki.net/'
   version '3.0.0b5'

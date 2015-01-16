@@ -1,4 +1,4 @@
-class QuicklookColorxml < Cask
+cask :v1 => 'quicklook-colorxml' do
   url 'http://www.araneum.it/macosx/colorxml-QuickLook-1.1.zip'
   homepage 'http://www.araneum.it/macosx/'
   version '1.1'

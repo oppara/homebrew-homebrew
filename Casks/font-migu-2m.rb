@@ -1,4 +1,4 @@
-class FontMigu2m < Cask
+cask :v1 => 'font-migu-2m' do
   url 'http://sourceforge.jp/frs/redir.php?m=osdn&f=%2Fmix-mplus-ipa%2F59022%2Fmigu-2m-20130617.zip'
   homepage 'http://mix-mplus-ipa.sourceforge.jp/migu/'
   version '20130617'

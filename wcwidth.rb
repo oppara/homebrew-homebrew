@@ -5,6 +5,7 @@ class Wcwidth < Formula
   url "https://github.com/fumiyas/wcwidth-cjk.git"
 
   def install
+    system "./configure --prefix=#{prefix}"
     system "make"
     ENV["DESTDIR"] = "#{prefix}"
     system "make install"

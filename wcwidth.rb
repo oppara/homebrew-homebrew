@@ -4,6 +4,10 @@ class Wcwidth < Formula
   homepage "https://github.com/fumiyas/wcwidth-cjk"
   url "https://github.com/fumiyas/wcwidth-cjk.git"
 
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
+
   def install
     system "autoreconf --install"
     system "./configure --prefix=#{prefix}"

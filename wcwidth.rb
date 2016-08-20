@@ -8,7 +8,6 @@ class Wcwidth < Formula
     system "autoreconf --install"
     system "./configure --prefix=#{prefix}"
     system "make"
-    ENV["DESTDIR"] = "#{prefix}"
     system "make install"
     bin.install_symlink "#{prefix}/usr/local/bin/wcwidth-cjk"
     lib.install_symlink "#{prefix}/usr/local/lib/wcwidth-cjk.so"

@@ -8,7 +8,7 @@ class Keyboardswitcher < Formula
 
   def install
     system "xcodebuild", "-target", "keyboardSwitcher", "-configuration", "Release"
-    bin.install("build/release/keyboardSwitcher")
+    bin.install("build/Release/keyboardSwitcher")
   end
 
   test do

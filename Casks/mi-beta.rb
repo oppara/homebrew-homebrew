@@ -1,7 +1,7 @@
-cask :v1 => 'mi-beta' do
-  url 'http://www.mimikaki.net/download/mi3.0.0b5.dmg'
+cask 'mi-beta' do
+  url 'https://www.mimikaki.net/download/mi3.0.0b13.dmg'
   homepage 'http://www.mimikaki.net/'
-  version '3.0.0b5'
-  sha256 '57451ce6a78d164ff12751b8342407c2acc741f7034a15b3d226111a6841bb38'
+  version '3.0.0b13'
+  sha256 '1b8db4164b53a12c0857f11cb4f4be07972f2e03f12192b30ebe4df3b8f9d889'
   link 'mi.app'
 end

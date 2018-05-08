@@ -17,7 +17,7 @@ class Wcwidth < Formula
     lib.install_symlink "#{prefix}/usr/local/lib/wcwidth-cjk.so"
   end
 
-  def caveats; <<~EOS.undent
+  def caveats; <<~EOS
     Run a command with $LD_PRELOAD-able library:
 
         $ export LD_PRELOAD=/usr/local/lib/wcwidth-cjk.so

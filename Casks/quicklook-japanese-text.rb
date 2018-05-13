@@ -1,4 +1,4 @@
-cask :v1 => 'quicklook-japanese-text' do
+cask 'quicklook-japanese-text' do
   url 'http://x.nest.jp/attachment/JapaneseText_qlgenerator-1.0.zip'
   homepage 'https://github.com/ento/quicklook-jptxt'
   version '1.0'

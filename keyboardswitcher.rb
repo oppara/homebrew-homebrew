@@ -2,9 +2,9 @@ require 'formula'
 
 class Keyboardswitcher < Formula
   homepage "https://github.com/Lutzifer/keyboardSwitcher"
-  url "https://github.com/Lutzifer/keyboardSwitcher/archive/0.0.5.tar.gz"
-  version "0.0.5"
-  sha256 "cd116f23214d49fc36b34c11e741bc4567c752abda96eae07bc896ce88757762"
+  url "https://github.com/Lutzifer/keyboardSwitcher/archive/1.0.1.tar.gz"
+  version "1.0.1"
+  sha256 "3c925eda22be982ebe2d619cccb1c6ce3bdef715725b7cdee312c769d1cb6f9c"
 
   def install
     system "xcodebuild", "-target", "keyboardSwitcher", "-configuration", "Release"

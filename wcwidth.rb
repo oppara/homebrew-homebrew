@@ -3,6 +3,8 @@ require "formula"
 class Wcwidth < Formula
   homepage "https://github.com/fumiyas/wcwidth-cjk"
   url "https://github.com/fumiyas/wcwidth-cjk.git"
+  sha256 "550ec0c384194c1558607d24fb84ef1649e7d8b125b7ca8a256c946cac33d0c0"
+  version "0.0.1"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build

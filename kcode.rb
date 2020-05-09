@@ -7,7 +7,6 @@ class Kcode < Formula
   version '1.0.2'
 
   def install
-    File.rename 'kcode-1.0', 'kcode'
     bin.install 'kcode'
   end
 end

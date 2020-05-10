@@ -39,3 +39,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: brew cask install Casks/quicklook-japanese-text.rb
+  quicklook-qltext-jp:
+    runs-on: macos-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew cask install Casks/quicklook-qltext-jp.rb

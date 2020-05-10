@@ -1,0 +1,41 @@
+name: Install tests for formulas
+
+on: [push, pull_request]
+
+jobs:
+  kcode:
+    runs-on: macos-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew install kcode.rb
+  wcwidth:
+    runs-on: macos-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew install wcwidth.rb
+  # keyboardswitcher:
+    # runs-on: macos-latest
+    # timeout-minutes: 3
+    # steps:
+      # - uses: actions/checkout@v2
+      # - run: brew install keyboardswitcher.rb
+  colorpicker-plus:
+    runs-on: macos-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew cask install Casks/colorpicker-plus.rb
+  quicklook-colorxml:
+    runs-on: macos-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew cask install Casks/quicklook-colorxml.rb
+  quicklook-qltext-jp:
+    runs-on: macos-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v2
+      - run: brew cask install Casks/quicklook-qltext-jp.rb
